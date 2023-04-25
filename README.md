@@ -14,7 +14,6 @@ $$
 $$
 \frac{\partial J(w,b)}{\partial w_j}  = \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) -y^{(i)}).x^{(i)}_{j} 
 $$
-Ta phải thực hiện cập nhật đồng thời w,b.<br>
 **Chú thích:**
 * $f_{w,b}(x)$ : Hàm dự đoán.
 * m: Số ví dụ.
