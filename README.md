@@ -8,6 +8,7 @@ $$J(W,b)=\frac{1}{2m} \sum\limits_{i=0}^{m}(f_{\overrightarrow{w},b}(x^{(i)})-y^
 ## 3. Gradient Descent
 $$b=b-\alpha\frac{\partial J(w,b)}{\partial b}$$
 $$w_j=w_j-\alpha\frac{\partial J(w,b)}{\partial w_j}$$
+$$\frac{\partial J(w,b)}{\partial b}  = \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})$$
 **Chú thích:**
 * $f_{w,b}(x)$ : Hàm dự đoán.
 * m: Số ví dụ.
